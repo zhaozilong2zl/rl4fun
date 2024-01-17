@@ -1,0 +1,18 @@
+git add --all
+git commit -m "新增mappo算法，已调试更改entity个数通过，并可render（但是速度过快）"
+git remote add origin https://github.com/zhaozilong2zl/UAV_Confrontation_GradDesign.git
+git push -u origin master
+
+
+git remote rm origin
+
+如果出现：$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+可按顺序尝试
+git pull
+git push
